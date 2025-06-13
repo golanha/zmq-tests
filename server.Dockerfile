@@ -1,4 +1,4 @@
-FROM python:3.7
+FROM python:3.12.11
 ADD ./requirements.txt /zmqtest/
 WORKDIR /zmqtest/
 RUN pip install -r requirements.txt
